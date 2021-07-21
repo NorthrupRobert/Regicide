@@ -3,7 +3,7 @@
 #include <ctime>
 #include "card.h"
 #include "enemy.h"
-//#include "deck.h"
+#include "deck.h"
 
 #define cls std::system("clear")
 
@@ -31,11 +31,14 @@ int main() {
         for (int j = 10; j < 13; j++)
             temp.push_back(card[i][j]);
 
-    Enemy theEnemy(temp);
+    //Enemy theEnemy(temp);
 
     //TITLE, MAIN MENU, INSTRUCTIONS . . .
     cls;
     Title();
+
+    Deck handDeck();
+    handDeck.InitializeDeck(tavern);
     
 
     std::cout << std::endl;
