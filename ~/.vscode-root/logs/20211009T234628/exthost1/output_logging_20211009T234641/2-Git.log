@@ -1,0 +1,694 @@
+Validating found git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /home/notrobb/Documents/Regicide
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :driver.cpp
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/driver.cpp
+> git cat-file -s cd4a3f2964bbdba8f3fb1cce8a11ff82d36a5826
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :displaycard.cpp
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/displaycard.cpp
+> git cat-file -s f5b5d8f1328b05955142e1300b456e373c98a1af
+> git show --textconv :card.cpp
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/card.cpp
+> git cat-file -s 9d6c7a5a20ecf7d24b65c204c23340e33412a30c
+> git show --textconv :card.h
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/card.h
+> git cat-file -s 009914dd5c242876351f6e4913d590f60d6f49a7
+> git show --textconv :enemy.cpp
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/enemy.cpp
+> git cat-file -s feed2df11b20db0a806b1439342dbac7627fee2d
+> git show --textconv :enemy.h
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/enemy.h
+> git cat-file -s 5ab80b6be63410c88c27783f244f6cac3ea287f0
+> git show --textconv :makefile
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/makefile
+> git cat-file -s e149e48c2e78addb6b07f0e728cda90dc9fe28fa
+> git show --textconv :displaycard.cpp
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/displaycard.cpp
+> git cat-file -s f5b5d8f1328b05955142e1300b456e373c98a1af
+> git show --textconv :card.cpp
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/card.cpp
+> git cat-file -s 9d6c7a5a20ecf7d24b65c204c23340e33412a30c
+> git show --textconv :displaycard.cpp
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/displaycard.cpp
+> git cat-file -s f5b5d8f1328b05955142e1300b456e373c98a1af
+> git show --textconv :card.cpp
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/card.cpp
+> git cat-file -s 9d6c7a5a20ecf7d24b65c204c23340e33412a30c
+> git show --textconv :displaycard.cpp
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/displaycard.cpp
+> git cat-file -s f5b5d8f1328b05955142e1300b456e373c98a1af
+> git show --textconv :card.cpp
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/card.cpp
+> git cat-file -s 9d6c7a5a20ecf7d24b65c204c23340e33412a30c
+> git show --textconv :displaycard.cpp
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/displaycard.cpp
+> git cat-file -s f5b5d8f1328b05955142e1300b456e373c98a1af
+> git show --textconv :card.cpp
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/card.cpp
+> git cat-file -s 9d6c7a5a20ecf7d24b65c204c23340e33412a30c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :displaycard.cpp
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/displaycard.cpp
+> git cat-file -s f5b5d8f1328b05955142e1300b456e373c98a1af
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :card.cpp
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/card.cpp
+> git cat-file -s 9d6c7a5a20ecf7d24b65c204c23340e33412a30c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :card.h
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/card.h
+> git cat-file -s 009914dd5c242876351f6e4913d590f60d6f49a7
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :enemy.h
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/enemy.h
+> git cat-file -s 5ab80b6be63410c88c27783f244f6cac3ea287f0
+> git show --textconv :makefile
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/makefile
+> git cat-file -s e149e48c2e78addb6b07f0e728cda90dc9fe28fa
+> git show --textconv :enemy.h
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/enemy.h
+> git cat-file -s 5ab80b6be63410c88c27783f244f6cac3ea287f0
+> git show --textconv :deck.cpp
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/deck.cpp
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :deck.h
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/deck.h
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :enemy.cpp
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/enemy.cpp
+> git cat-file -s feed2df11b20db0a806b1439342dbac7627fee2d
+> git show --textconv :enemy.h
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/enemy.h
+> git cat-file -s 5ab80b6be63410c88c27783f244f6cac3ea287f0
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :makefile
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/makefile
+> git cat-file -s e149e48c2e78addb6b07f0e728cda90dc9fe28fa
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :deck.h
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/deck.h
+> git show --textconv :deck.cpp
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/deck.cpp
+> git show --textconv :enemy.h
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/enemy.h
+> git cat-file -s 5ab80b6be63410c88c27783f244f6cac3ea287f0
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :deck.h
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/deck.h
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :deck.cpp
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/deck.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :enemy.cpp
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/enemy.cpp
+> git cat-file -s feed2df11b20db0a806b1439342dbac7627fee2d
+> git show --textconv :deck.h
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/deck.h
+> git show --textconv :deck.cpp
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/deck.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :deck.h
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/deck.h
+> git show --textconv :deck.cpp
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/deck.cpp
+> git show --textconv :deck.h
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/deck.h
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :deck.cpp
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/deck.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :deck.h
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/deck.h
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :deck.cpp
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/deck.cpp
+> git show --textconv :card.h
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/card.h
+> git cat-file -s 009914dd5c242876351f6e4913d590f60d6f49a7
+> git show --textconv :enemy.h
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/enemy.h
+> git cat-file -s 5ab80b6be63410c88c27783f244f6cac3ea287f0
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :deck.h
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/deck.h
+> git show --textconv :deck.cpp
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/deck.cpp
+> git show --textconv :enemy.h
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/enemy.h
+> git cat-file -s 5ab80b6be63410c88c27783f244f6cac3ea287f0
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :deck.cpp
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/deck.cpp
+> git show --textconv :deck.h
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/deck.h
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :deck.cpp
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/deck.cpp
+> git show --textconv :deck.h
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/deck.h
+> git show --textconv :deck.cpp
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/deck.cpp
+> git show --textconv :deck.h
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/deck.h
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :deck.cpp
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/deck.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :driver.cpp
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/driver.cpp
+> git cat-file -s cd4a3f2964bbdba8f3fb1cce8a11ff82d36a5826
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :enemy.h
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/enemy.h
+> git cat-file -s 5ab80b6be63410c88c27783f244f6cac3ea287f0
+> git show --textconv :deck.h
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/deck.h
+> git show --textconv :enemy.h
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/enemy.h
+> git cat-file -s 5ab80b6be63410c88c27783f244f6cac3ea287f0
+> git show --textconv :deck.h
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/deck.h
+> git show --textconv :deck.cpp
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/deck.cpp
+> git show --textconv :enemy.h
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/enemy.h
+> git cat-file -s 5ab80b6be63410c88c27783f244f6cac3ea287f0
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :deck.h
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/deck.h
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :enemy.h
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/enemy.h
+> git cat-file -s 5ab80b6be63410c88c27783f244f6cac3ea287f0
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :deck.h
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/deck.h
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :deck.cpp
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/deck.cpp
+> git show --textconv :enemy.h
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/enemy.h
+> git cat-file -s 5ab80b6be63410c88c27783f244f6cac3ea287f0
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :enemy.cpp
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/enemy.cpp
+> git cat-file -s feed2df11b20db0a806b1439342dbac7627fee2d
+> git show --textconv :enemy.h
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/enemy.h
+> git cat-file -s 5ab80b6be63410c88c27783f244f6cac3ea287f0
+> git show --textconv :driver.cpp
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/driver.cpp
+> git cat-file -s cd4a3f2964bbdba8f3fb1cce8a11ff82d36a5826
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :deck.h
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/deck.h
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :makefile
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/makefile
+> git cat-file -s e149e48c2e78addb6b07f0e728cda90dc9fe28fa
+> git show --textconv :deck.h
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/deck.h
+> git show --textconv :enemy.h
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/enemy.h
+> git cat-file -s 5ab80b6be63410c88c27783f244f6cac3ea287f0
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template

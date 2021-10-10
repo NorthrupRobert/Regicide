@@ -3,13 +3,13 @@
 
 #include <vector>
 #include "card.h"
+#include "deck.h"
 
-class Enemy {
+class Enemy : public Deck{
 private:
     int _health;
-    std::vector<Card> _deck;
 public:
-    Enemy(std::vector<Card> &input) {_deck = input;}
+    Enemy(std::vector<Card> &input) {deck = input; std::cout << "ENEMY CLASS" << std::endl;}
     //void InitializeEnemy(std::vector<Card> input);
 };
 
