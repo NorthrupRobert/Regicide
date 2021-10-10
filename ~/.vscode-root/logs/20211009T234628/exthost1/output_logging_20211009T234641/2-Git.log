@@ -692,3 +692,12 @@ Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes
 > git remote --verbose
 Warning: Failed to watch ref '/home/notrobb/Documents/Regicide/.git/refs/remotes/origin/main', is most likely packed.
 > git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/notrobb/Documents/Regicide/enemy.h
+> git cat-file -s 70afc25e21808fc32baf0600c7e4bc41f1e1ac4b
+> git show --textconv :enemy.h
