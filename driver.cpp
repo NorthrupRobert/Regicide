@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <ctime>
 #include "card.h"
 #include "enemy.h"
 
@@ -7,6 +8,7 @@
 
 void Title();
 void MainMenu();
+void ShuffleDeck(std::vector<Card> &deck);
 
 int main() {
     std::vector<Card> tavern;
@@ -28,19 +30,34 @@ int main() {
         for (int j = 10; j < 13; j++)
             temp.push_back(card[i][j]);
 
-    //Enemy theEnemy(temp);
+    Enemy theEnemy(temp);
 
     //TITLE, MAIN MENU, INSTRUCTIONS . . .
     cls;
     Title();
-
-    Enemy theEnemy(temp);
     
+
+    std::cout << std::endl;
+    tavern.at(12).DisplayCard();
+    ShuffleDeck(tavern);
+    std::cout << std::endl;
+    tavern.at(12).DisplayCard();
+
     return 0;
 }
 
-void ShuffleDeck() {
+void ShuffleDeck(std::vector<Card> &deck) {
+    srand(time(0));
+    int size = deck.size();
+    int changeIndex;
+    Card tempCard;
 
+    for (int i = 0; i < size; i++) {
+        changeIndex = (rand() % size);
+        tempCard = deck.at(changeIndex);
+        deck.at(changeIndex) = deck.at(i);
+        deck.at(i) = tempCard;
+    }
 }
 
 void MainMenu() {

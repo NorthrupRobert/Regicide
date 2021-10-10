@@ -7,6 +7,8 @@ void Card::InitializeCard(int suit, int rank) {
     _rank = rank;
     if (_rank == 1)
         _value = 'A';
+    else if (_rank == 10)
+        _value = '%';
     else if (_rank == 11)
         _value = 'J';
     else if (_rank == 12)
