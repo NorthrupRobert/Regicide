@@ -16,9 +16,10 @@ public:
     void InitializeCard(int suit, int rank);
     //virtual ~Card();
 
-    int GetRank();
-    int GetSuit();
-    void DisplayCard();
+    int GetRank() const;
+    int GetSuit() const;
+    char GetValue() const;
+    void DisplayCard() const;
 };
 
 #endif

@@ -1,4 +1,4 @@
-regicide: driver.o card.o card.h displaycard.o deck.o deck.h enemy.o enemy.h
+regicide: driver.o card.o card.h displaycard.o deck.o deck.h enemy.o enemy.h hand.h
 	g++ driver.o card.o card.h -o regicide
 driver.o: driver.cpp
 	g++ -c driver.cpp

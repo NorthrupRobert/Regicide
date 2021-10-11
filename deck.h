@@ -30,6 +30,12 @@ public:
     void DisplayCard(int index) {
         set.at(index).DisplayCard();
     }
+    void DisplayDeck() {
+        for (int i = 0; i < set.size(); i++) {
+            std::cout << "|(" << i + 1 << ") " << set.at(i)._value << "\t" << set.at(i)._rank << std::endl;
+        }
+        std::cout << std::endl;
+    }
     void TakeCards(int numCards, std::vector<Card> &moveDeck) {
         std::vector<Card> temp;
         moveDeck = temp;

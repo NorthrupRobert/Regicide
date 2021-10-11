@@ -9,7 +9,24 @@
 class Enemy : public Deck { 
 public:
     int _health;
-    Enemy(std::vector<Card> &input) {set = input;}
+    int _suit;
+    int _rank;
+
+    Enemy(std::vector<Card> &input) {
+        set = input;
+    }
+
+    void InitializeEnemy() {
+        _health = 0;
+
+        if (set.at(0)._rank == 11)
+            _health = 10;
+        else if (set.at(0)._rank == 12)
+            _health = 15;
+        else
+            _health = 20;
+    }
+
     void ShuffleEnemy() {
         srand(time(0));
         int changeIndex;

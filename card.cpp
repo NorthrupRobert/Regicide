@@ -27,15 +27,19 @@ void Card::InitializeCard(int suit, int rank) {
         _face = "♠";
 }
 
-int Card::GetRank() {
+int Card::GetRank() const{
     return _rank;
 }
 
-int Card::GetSuit() {
+int Card::GetSuit() const{
     return _suit;
 }
 
-void Card::DisplayCard() {
+char Card::GetValue() const{
+    return _value;
+}
+
+void Card::DisplayCard() const{
     std::cout << "===========" << std::endl;
     std::cout << "|" << _value << "........|" << std::endl;
     std::cout << "|.........|" << std::endl;
