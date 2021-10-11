@@ -72,7 +72,7 @@ void Play(Hand &theHand, Deck &theTavern, Deck &theDiscard, Deck &theInPlay, Ene
     while(theEnemy.GetSize() != 0 || (theHand.dead == false)) {
       theHand.InitializeHand();
       theEnemy.InitializeEnemy();
-      while(theEnemy._health < 1) {
+      while(theEnemy._health > 0) {
         cls;
         theEnemy.DisplayCard(0);
         std::cout << "ENEMY HEALTH: " << theEnemy._health << std::endl;
