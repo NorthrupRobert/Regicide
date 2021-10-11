@@ -6,18 +6,26 @@
 #include "deck.h"
 
 #define cls std::system("clear")
+int maxHandSize = 8;
 
 void Title();
 void MainMenu();
-void ShuffleDeck(std::vector<Card> &deck);
+void InitializeGame();
 
 int main() {
-    std::vector<Card> tavern;
-    std::vector<Card> discarded;
-    std::vector<Card> hand;
-    std::vector<Card> temp;
+    //TITLE, MAIN MENU, INSTRUCTIONS . . .
+    MainMenu();
 
-    //INITIALIZING ALL CARDS (ALL OBJECTS)
+    InitializeGame();
+
+    return 0;
+}
+
+void InitializeGame() {
+    std::vector<Card> moveDeck;
+
+    //INITIALIZING ALL CARDS (ALL OBJECTS), INTO THE ENEMY SET AND GENERAL SET, TAVERN
+    //(hand will dispense later from the tavern, discard is empty)
     Card card[4][13];
     for (int i = 0; i < 4; i++)
         for (int j = 0; j < 13; j++)
@@ -25,56 +33,35 @@ int main() {
 
     for (int i = 0; i < 4; i++)
         for (int j = 0; j < 10; j++)
-            tavern.push_back(card[i][j]);
+            moveDeck.push_back(card[i][j]);
+    Deck theTavern(moveDeck);
+    moveDeck.clear();
 
     for (int i = 0; i < 4; i++)
         for (int j = 10; j < 13; j++)
-            temp.push_back(card[i][j]);
+            moveDeck.push_back(card[i][j]);
+    Enemy theEnemy(moveDeck);
+    moveDeck.clear();
 
-    //Enemy theEnemy(temp);
-
-    //TITLE, MAIN MENU, INSTRUCTIONS . . .
-    cls;
-    Title();
-
-    Deck handDeck();
-    handDeck.InitializeDeck(tavern);
-    
-
-    std::cout << std::endl;
-    tavern.at(12).DisplayCard();
-    ShuffleDeck(tavern);
-    std::cout << std::endl;
-    tavern.at(12).DisplayCard();
-
-    return 0;
-}
-
-void ShuffleDeck(std::vector<Card> &deck) {
-    srand(time(0));
-    int size = deck.size();
-    int changeIndex;
-    Card tempCard;
-
-    for (int i = 0; i < size; i++) {
-        changeIndex = (rand() % size);
-        tempCard = deck.at(changeIndex);
-        deck.at(changeIndex) = deck.at(i);
-        deck.at(i) = tempCard;
-    }
+    //SHUFFLE DECKS
+    theTavern.Shuffle();
+    theTavern.TakeCards(maxHandSize, moveDeck);
+    Deck theHand(moveDeck);
+    Deck theDiscard();
 }
 
 void MainMenu() {
-
+    cls;
+    Title();
 }
 
 void Title() {
-std::cout << " _______  _______  _______ _________ _______ _________ ______   _______" << std::endl;
-std::cout << "(  ____ )(  ____ \\(  ____ \\\\__   __/(  ____ \\\\__   __/(  __  \\ (  ____ \\" << std::endl;
-std::cout << "| (    )|| (    \\/| (    \\/   ) (   | (    \\/   ) (   | (  \\  )| (    \\/" << std::endl;
-std::cout << "| (____)|| (__    | |         | |   | |         | |   | |   ) || (__    " << std::endl;
-std::cout << "|     __)|  __)   | | ____    | |   | |         | |   | |   | ||  __)   " << std::endl;
-std::cout << "| (\\ (   | (      | | \\_  )   | |   | |         | |   | |   ) || (      " << std::endl;
-std::cout << "| ) \\ \\__| (____/\\| (___) |___) (___| (____/\\___) (___| (__/  )| (____/\\" << std::endl;
-std::cout << "|/   \\__/(_______/(_______)\\_______/(_______/\\_______/(______/ (_______/" << std::endl;
+    std::cout << " _______  _______  _______ _________ _______ _________ ______   _______" << std::endl;
+    std::cout << "(  ____ )(  ____ \\(  ____ \\\\__   __/(  ____ \\\\__   __/(  __  \\ (  ____ \\" << std::endl;
+    std::cout << "| (    )|| (    \\/| (    \\/   ) (   | (    \\/   ) (   | (  \\  )| (    \\/" << std::endl;
+    std::cout << "| (____)|| (__    | |         | |   | |         | |   | |   ) || (__    " << std::endl;
+    std::cout << "|     __)|  __)   | | ____    | |   | |         | |   | |   | ||  __)   " << std::endl;
+    std::cout << "| (\\ (   | (      | | \\_  )   | |   | |         | |   | |   ) || (      " << std::endl;
+    std::cout << "| ) \\ \\__| (____/\\| (___) |___) (___| (____/\\___) (___| (__/  )| (____/\\" << std::endl;
+    std::cout << "|/   \\__/(_______/(_______)\\_______/(_______/\\_______/(______/ (_______/" << std::endl;
 }

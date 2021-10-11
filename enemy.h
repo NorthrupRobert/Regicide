@@ -5,13 +5,10 @@
 #include "card.h"
 #include "deck.h"
 
-class Enemy : public Deck{
-private:
-    int _health;
-    std::vector<Card> _deck;
+class Enemy : public Deck { 
 public:
-    Enemy(std::vector<Card> &input) {_deck = input;}
-    //void InitializeEnemy(std::vector<Card> input);
+    int _health;
+    Enemy(std::vector<Card> &input) {set = input;};
 };
 
 #endif

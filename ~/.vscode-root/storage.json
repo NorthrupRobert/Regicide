@@ -3,7 +3,7 @@
     "openedPathsList": {
         "entries": [
             {
-                "folderUri": "file:///home/notrobb/Documents/Regicide"
+                "folderUri": "file:///home/ubuntu/Documents/Regicide"
             }
         ]
     },
@@ -32,7 +32,7 @@
                     },
                     {
                         "id": "workbench.action.openWorkspace",
-                        "label": "Open Wor&&kspace..."
+                        "label": "Open Wor&&kspace from File..."
                     },
                     {
                         "id": "submenuitem.30",
@@ -50,13 +50,13 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/notrobb/Documents/Regicide",
-                                        "external": "file:///home/notrobb/Documents/Regicide",
-                                        "path": "/home/notrobb/Documents/Regicide",
+                                        "fsPath": "/home/ubuntu/Documents/Regicide",
+                                        "external": "file:///home/ubuntu/Documents/Regicide",
+                                        "path": "/home/ubuntu/Documents/Regicide",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "/home/notrobb/Documents/Regicide"
+                                    "label": "/home/ubuntu/Documents/Regicide"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -143,7 +143,7 @@
                                 },
                                 {
                                     "id": "workbench.extensions.action.showRecommendedKeymapExtensions",
-                                    "label": "&&Keymaps"
+                                    "label": "&&Migrate Keyboard Shortcuts from..."
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -461,6 +461,13 @@
                                 {
                                     "id": "workbench.action.splitEditorRight",
                                     "label": "Split &&Right"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "workbench.action.splitEditorInGroup",
+                                    "label": "Split in &&Group"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -959,15 +966,19 @@
                 "items": [
                     {
                         "id": "workbench.action.openWalkthrough",
-                        "label": "Welcome"
+                        "label": "Get Started"
                     },
                     {
-                        "id": "workbench.action.showInteractivePlayground",
-                        "label": "I&&nteractive Playground"
+                        "id": "workbench.action.showCommands",
+                        "label": "Show All Commands"
                     },
                     {
                         "id": "workbench.action.openDocumentationUrl",
                         "label": "&&Documentation"
+                    },
+                    {
+                        "id": "workbench.action.showInteractivePlayground",
+                        "label": "Editor Playgrou&&nd"
                     },
                     {
                         "id": "update.showCurrentReleaseNotes",
@@ -981,8 +992,8 @@
                         "label": "&&Keyboard Shortcuts Reference"
                     },
                     {
-                        "id": "workbench.action.openIntroductoryVideosUrl",
-                        "label": "Introductory &&Videos"
+                        "id": "workbench.action.openVideoTutorialsUrl",
+                        "label": "&&Video Tutorials"
                     },
                     {
                         "id": "workbench.action.openTipsAndTricksUrl",
@@ -1081,11 +1092,6 @@
                 "label": "Ctrl+K Ctrl+S",
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+s"
-            },
-            "workbench.extensions.action.showRecommendedKeymapExtensions": {
-                "label": "Ctrl+K Ctrl+M",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+k ctrl+m"
             },
             "workbench.action.selectTheme": {
                 "label": "Ctrl+K Ctrl+T",
@@ -1238,6 +1244,11 @@
                 "label": "Ctrl+NumPad0",
                 "isNative": false,
                 "userSettingsLabel": "ctrl+numpad0"
+            },
+            "workbench.action.splitEditorInGroup": {
+                "label": "Ctrl+K Ctrl+Shift+\\",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
             },
             "workbench.action.toggleEditorGroupLayout": {
                 "label": "Shift+Alt+0",
@@ -1488,17 +1499,17 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/notrobb/Documents/Regicide",
-            "backupPath": "/home/notrobb/Documents/Regicide/~/.vscode-root/Backups/407d81a83d95a7e7db12b65dd976c235",
+            "folder": "file:///home/ubuntu/Documents/Regicide",
+            "backupPath": "/home/ubuntu/Documents/Regicide/~/.vscode-root/Backups/af6d60ce07efdd5746505a2c00af6bbb",
             "uiState": {
                 "mode": 0,
-                "x": 172,
-                "y": 109,
+                "x": 346,
+                "y": 64,
                 "width": 1024,
                 "height": 768
             }
         },
         "openedWindows": []
     },
-    "pickerWorkingDir": "/home/notrobb/Documents"
+    "pickerWorkingDir": "/home/ubuntu/Documents"
 }
