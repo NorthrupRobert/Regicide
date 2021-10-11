@@ -37,11 +37,17 @@ void InitializeGame() {
     Deck theTavern(moveDeck);
     moveDeck.clear();
 
-    for (int i = 0; i < 4; i++)
-        for (int j = 10; j < 13; j++)
-            moveDeck.push_back(card[i][j]);
+    for (int i = 10; i < 13; i++) //loads enemy by rank first instead of suit by suit, to shuffle enemies correctly (each type at a time)
+        for (int j = 0; j < 4; j++)
+            moveDeck.push_back(card[j][i]);
     Enemy theEnemy(moveDeck);
     moveDeck.clear();
+    
+    theEnemy.ShuffleEnemy();
+    std::cout << std::endl << std::endl << std::endl;
+    for (int i = 0; i < theEnemy.GetSize(); i++) {
+        theEnemy.DisplayCard(i);
+    }
 
     //SHUFFLE DECKS
     theTavern.Shuffle();
